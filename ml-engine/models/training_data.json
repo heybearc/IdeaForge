@@ -1,0 +1,68 @@
+[
+  {
+    "idea_id": "2026-01-04-proxmox-management-saas",
+    "date_evaluated": "2026-01-04T08:58:26.258357",
+    "category": "unknown",
+    "scores": {
+      "market_demand": 8,
+      "technical_feasibility": 9,
+      "time_to_revenue": 8,
+      "scalability": 9,
+      "initial_investment": 10,
+      "competitive_advantage": 8,
+      "automation_potential": 9,
+      "recurring_revenue": 10
+    },
+    "total_score": 87.0,
+    "success_probability": 95.0,
+    "recommendation": "Build MVP",
+    "outcome": "pending",
+    "actual_revenue_30d": 0,
+    "actual_revenue_90d": 0,
+    "actual_revenue_1y": 0
+  },
+  {
+    "idea_id": "2026-01-05-crypto-dollar-cost-averaging-bot",
+    "date_evaluated": "2026-01-05T08:07:25.796110",
+    "category": "unknown",
+    "scores": {
+      "market_demand": 9,
+      "technical_feasibility": 9,
+      "time_to_revenue": 8,
+      "scalability": 9,
+      "initial_investment": 9,
+      "competitive_advantage": 7,
+      "automation_potential": 9,
+      "recurring_revenue": 10
+    },
+    "total_score": 86.0,
+    "success_probability": 95.0,
+    "recommendation": "Build MVP",
+    "outcome": "pending",
+    "actual_revenue_30d": 0,
+    "actual_revenue_90d": 0,
+    "actual_revenue_1y": 0
+  },
+  {
+    "idea_id": "2026-01-05-passive-income-lab-as-saas",
+    "date_evaluated": "2026-01-05T15:12:37.858897",
+    "category": "unknown",
+    "scores": {
+      "market_demand": 8,
+      "technical_feasibility": 10,
+      "time_to_revenue": 7,
+      "scalability": 8,
+      "initial_investment": 7,
+      "competitive_advantage": 7,
+      "automation_potential": 7,
+      "recurring_revenue": 8
+    },
+    "total_score": 77.0,
+    "success_probability": 80.9,
+    "recommendation": "Validate Market",
+    "outcome": "pending",
+    "actual_revenue_30d": 0,
+    "actual_revenue_90d": 0,
+    "actual_revenue_1y": 0
+  }
+]

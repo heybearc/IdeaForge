@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# ML Models (keep training data, ignore large model files)
+ml-engine/models/*.pkl
+ml-engine/models/*.h5
+ml-engine/models/*.joblib
+
+# Environment variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+
+# Keep these
+!ml-engine/models/training_data.json
+!ml-engine/models/.gitkeep
