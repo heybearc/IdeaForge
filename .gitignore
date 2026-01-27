@@ -41,3 +41,4 @@ Thumbs.db
 # Keep these
 !ml-engine/models/training_data.json
 !ml-engine/models/.gitkeep
+.windsurf/workflows/*.md
