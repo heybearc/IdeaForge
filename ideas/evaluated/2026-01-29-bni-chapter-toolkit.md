@@ -2,8 +2,10 @@
 
 **Date Created:** 2026-01-29  
 **Category:** automation-services  
-**Status:** evaluated  
-**Creator:** Cory
+**Status:** promoted  
+**Creator:** Cory  
+**Promoted:** 2026-01-29  
+**Repository:** https://github.com/heybearc/bni-chapter-toolkit
 
 ---
 
