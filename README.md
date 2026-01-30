@@ -344,9 +344,23 @@ MIT License - see [LICENSE](LICENSE) file for details
 
 ## 🎯 Current Focus
 
-**Active Project**: [QuantShift](https://github.com/heybearc/quantshift) - Dual-bot trading platform  
-**Status**: Phase 1 (Alpaca Stock Bot) - Day 11/30 paper trading  
-**Next Milestone**: Launch Stock DCA product (March 2026)
+### Active Projects
+
+**QuantShift** - Dual-bot trading platform  
+- Status: Phase 1 (Alpaca Stock Bot) - Day 11/30 paper trading  
+- Next Milestone: Launch Stock DCA product (March 2026)
+- Repository: [QuantShift](https://github.com/heybearc/quantshift)
+
+**BNI Chapter Toolkit** - Digital platform for BNI chapters  
+- Status: MVP Development (promoted from IdeaForge)
+- Deployed: sandbox-01 container (10.92.2.6:3001)
+- Repository: [BNI Chapter Toolkit](https://github.com/heybearc/bni-chapter-toolkit)
+
+**CEH v13 Lab Environment** - Ethical hacking certification lab  
+- Status: Design Complete, Ready for Implementation
+- Purpose: CEH Practical & Multiple Choice Exam Preparation
+- Documentation: `ideas/in-progress/2026-01-30-ceh-v13-lab-environment.md`
+- Automation: `scripts/ceh-lab/` (4 deployment scripts)
 
 ---
 
