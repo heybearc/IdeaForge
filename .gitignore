@@ -27,6 +27,13 @@ ml-engine/models/*.joblib
 *.swo
 *~
 
+# Cursor — machine-local (MCP config uses absolute paths; regenerate via
+# `.cloudy-work/scripts/sync-cursor-mcp.sh` or MC portable setup).
+.cursor/
+
+# Windsurf: use one symlink — `.windsurf` → `.cloudy-work/.windsurf` (committed).
+# Do not replace it with a copied directory or git will show lots of untracked noise.
+
 # OS
 .DS_Store
 Thumbs.db
@@ -41,4 +48,3 @@ Thumbs.db
 # Keep these
 !ml-engine/models/training_data.json
 !ml-engine/models/.gitkeep
-.windsurf/workflows/*.md

@@ -222,7 +222,7 @@ A: Only if they're in different stages (one in validation, one in growth). Never
 - **Full Documentation**: `README.md`
 - **Evaluation Framework**: `frameworks/evaluation-matrix.md`
 - **Idea Template**: `frameworks/idea-template.md`
-- **Workflow Guide**: `.windsurf/workflows/passive-income-workflow.md`
+- **Workflow Guide**: `docs/passive-income-workflow.md`
 - **Success Patterns**: `knowledge-base/success-patterns/`
 
 ---

@@ -100,8 +100,10 @@ IdeaForge/
 │
 ├── active-projects/            # Live implementations
 │
-├── .windsurf/workflows/        # Development workflows
-│   └── passive-income-workflow.md
+├── docs/                       # Repo-local docs (not the MC submodule)
+│   └── passive-income-workflow.md  # Passive Income Lab workflow
+│
+├── .windsurf/                  # Symlink → `.cloudy-work/.windsurf` (governance workflows)
 │
 ├── QUICKSTART.md               # Quick start guide
 ├── SETUP_COMPLETE.md           # Setup documentation
@@ -304,7 +306,7 @@ For every project, monitor:
 - **[SETUP_COMPLETE.md](SETUP_COMPLETE.md)** - Setup documentation
 - **[frameworks/evaluation-matrix.md](frameworks/evaluation-matrix.md)** - Scoring criteria
 - **[frameworks/idea-template.md](frameworks/idea-template.md)** - Idea documentation template
-- **[.windsurf/workflows/passive-income-workflow.md](.windsurf/workflows/passive-income-workflow.md)** - Development workflow
+- **[docs/passive-income-workflow.md](docs/passive-income-workflow.md)** - Passive Income Lab workflow (this repo)
 
 ---
 

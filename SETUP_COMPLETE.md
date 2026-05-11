@@ -39,8 +39,9 @@ passive-income-lab/
 ├── knowledge-base/
 │   └── success-patterns/
 │       └── leveraging-existing-infrastructure.md
-├── .windsurf/workflows/
-│   └── passive-income-workflow.md  # Complete workflow guide
+├── docs/
+│   └── passive-income-workflow.md  # Complete workflow guide (repo-local)
+├── .windsurf/                  # Symlink → `.cloudy-work/.windsurf`
 └── active-projects/            # (ready for MVPs)
 ```
 
@@ -176,7 +177,7 @@ cp frameworks/idea-template.md ideas/brainstorm/$(date +%Y-%m-%d)-idea-name.md
 - **Quick Start**: `QUICKSTART.md` (30-minute guide)
 - **Full Guide**: `README.md` (complete documentation)
 - **Evaluation Framework**: `frameworks/evaluation-matrix.md`
-- **Workflow**: `.windsurf/workflows/passive-income-workflow.md`
+- **Workflow**: `docs/passive-income-workflow.md`
 - **Success Patterns**: `knowledge-base/success-patterns/`
 
 ## 🎯 Recommended Action: Start This Week
