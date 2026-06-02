@@ -1,0 +1,19 @@
+[
+  {
+    "assessment_id": "2026-01-05-passive-income-lab-as-saas-build-feasibility",
+    "date_assessed": "2026-06-02T11:10:46.872032",
+    "linked_idea": "../brainstorm/2026-01-05-passive-income-lab-as-saas.md",
+    "scores": {
+      "technical_viability": 8,
+      "build_complexity": 7,
+      "infrastructure_fit": 9,
+      "scale_architecture": 7,
+      "technical_risk": 7,
+      "ops_maintainability": 8
+    },
+    "build_feasibility_score": 76.0,
+    "verdict": "spike_first",
+    "outcome": "pending",
+    "actual_build_weeks": null
+  }
+]

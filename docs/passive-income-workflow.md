@@ -9,6 +9,7 @@ description: Passive Income Lab - Idea to Revenue Workflow
 - `/idea` - Create and evaluate a new passive income idea
 - `/validate` - Run market validation on an idea
 - `/rank` - Rank all ideas by success probability
+- **Build Lens** - `./scripts/new-build-feasibility.sh <slug>` then `assess.py` (engineering only; see [build-feasibility-workflow.md](./build-feasibility-workflow.md))
 - `/build` - Start building an MVP for a validated idea
 
 ## Workflow Steps
@@ -45,6 +46,20 @@ mv ideas/brainstorm/YYYY-MM-DD-idea-name.md ideas/evaluated/
 # Or archive if score < 40
 mv ideas/brainstorm/YYYY-MM-DD-idea-name.md ideas/archived/
 ```
+
+### 3b. Build Feasibility (for ideas you might build)
+
+**Optional but recommended before MVP.** Does not replace steps 2–4.
+
+```bash
+./scripts/new-build-feasibility.sh YYYY-MM-DD-idea-name
+# Edit ideas/feasibility/...-build-feasibility.md (technical sections only)
+python3 ml-engine/build-feasibility/assess.py ideas/feasibility/YYYY-MM-DD-idea-name-build-feasibility.md
+```
+
+Gate: opportunity score ≥ 60 **and** build feasibility ≥ 60 (or spike completed). Either lens can veto.
+
+Full workflow: [build-feasibility-workflow.md](./build-feasibility-workflow.md)
 
 ### 4. Market Validation (for ideas scoring 60+)
 

@@ -32,9 +32,22 @@ Automatic evaluation of ideas across 10 dimensions:
 
 ### 📁 **Structured Idea Lifecycle**
 ```
-Brainstorm → Evaluate → Develop → Launch → Optimize → Scale
+Brainstorm → Evaluate → Build Feasibility → Develop → Launch → Optimize → Scale
 ```
 Every idea moves through a clear pipeline with defined criteria.
+
+### 🔧 **Build Feasibility Assessment (Build Lens)**
+Separate engineering lens — does **not** replace opportunity scoring:
+- Will the approach work technically?
+- How hard is it to build (MVP effort, stack fit)?
+- What infrastructure is required (homelab vs new services)?
+- How does it scale operationally (bottlenecks, ops burden)?
+
+**Out of scope for Build Lens:** revenue, pricing, market size, passive-income ranking.
+
+Two scores, never merged: **Opportunity Score** (`evaluate.py`) + **Build Feasibility Score** (`assess.py`).
+
+See [docs/build-feasibility-workflow.md](docs/build-feasibility-workflow.md).
 
 ### 📊 **Performance Tracking**
 Monitor key metrics for every project:
@@ -66,6 +79,7 @@ IdeaForge/
 ├── ideas/                      # Idea lifecycle management
 │   ├── brainstorm/            # Raw ideas, quick notes (5 ideas)
 │   ├── evaluated/             # Ideas with ML scoring (3 ideas)
+│   ├── feasibility/           # Build Feasibility assessments (Build Lens)
 │   ├── in-progress/           # Active development
 │   └── archived/              # Completed or abandoned
 │
@@ -78,14 +92,18 @@ IdeaForge/
 │
 ├── ml-engine/                  # Machine learning optimization
 │   ├── idea-scorer/           # ML model for idea evaluation
-│   │   └── evaluate.py        # Scoring engine (ready to use)
+│   │   └── evaluate.py        # Opportunity scoring (passive income)
+│   ├── build-feasibility/     # Build Lens scoring (engineering)
+│   │   └── assess.py          # Build feasibility assessor
 │   ├── performance-tracker/   # Monitor actual results
 │   ├── optimization/          # A/B testing, improvements
 │   └── models/                # Trained models, datasets
 │       └── training_data.json # Historical idea performance
 │
 ├── frameworks/                 # Templates and processes
-│   ├── evaluation-matrix.md   # Scoring criteria
+│   ├── evaluation-matrix.md   # Opportunity scoring criteria
+│   ├── build-feasibility-matrix.md
+│   ├── build-feasibility-template.md
 │   ├── idea-template.md       # Idea documentation template
 │   ├── implementation-template.md
 │   ├── launch-checklist.md
@@ -235,6 +253,16 @@ done
 
 # Sort by score, pick top 3
 ```
+
+### **Phase 2b: Build Feasibility (optional gate before MVP)**
+```bash
+# For ideas you might actually build — engineering lens only
+./scripts/new-build-feasibility.sh <idea-slug>
+# Fill in ideas/feasibility/<slug>-build-feasibility.md
+python3 ml-engine/build-feasibility/assess.py ideas/feasibility/<slug>-build-feasibility.md
+```
+
+Proceed to MVP when opportunity score and build feasibility both pass your thresholds (see [docs/build-feasibility-workflow.md](docs/build-feasibility-workflow.md)).
 
 ### **Phase 3: Validate (1 week per idea)**
 ```bash
