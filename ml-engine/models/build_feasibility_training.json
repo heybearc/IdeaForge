@@ -15,5 +15,22 @@
     "verdict": "spike_first",
     "outcome": "pending",
     "actual_build_weeks": null
+  },
+  {
+    "assessment_id": "2026-06-02-vonage-mfa-sms-relay-build-feasibility",
+    "date_assessed": "2026-06-02T11:20:31.530762",
+    "linked_idea": "../brainstorm/2026-06-02-vonage-mfa-sms-relay.md",
+    "scores": {
+      "technical_viability": 5,
+      "build_complexity": 8,
+      "infrastructure_fit": 9,
+      "scale_architecture": 9,
+      "technical_risk": 4,
+      "ops_maintainability": 8
+    },
+    "build_feasibility_score": 72.0,
+    "verdict": "spike_first",
+    "outcome": "pending",
+    "actual_build_weeks": null
   }
 ]
