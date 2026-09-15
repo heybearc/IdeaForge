@@ -48,3 +48,10 @@ Thumbs.db
 # Keep these
 !ml-engine/models/training_data.json
 !ml-engine/models/.gitkeep
+
+# Control plane Cursor symlinks
+.cursor/commands/*.md
+.cursor/rules/*
+.cursor/skills/*/
+# MCP global only (~/.cursor/mcp.json) — D-053
+.cursor/mcp.json
