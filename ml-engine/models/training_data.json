@@ -64,5 +64,71 @@
     "actual_revenue_30d": 0,
     "actual_revenue_90d": 0,
     "actual_revenue_1y": 0
+  },
+  {
+    "idea_id": "2026-10-13-mri-order-redirect",
+    "date_evaluated": "2026-10-13T16:20:29.319286",
+    "category": "automation-services",
+    "scores": {
+      "market_demand": 8,
+      "technical_feasibility": 6,
+      "time_to_revenue": 4,
+      "scalability": 8,
+      "initial_investment": 7,
+      "competitive_advantage": 6,
+      "automation_potential": 5,
+      "recurring_revenue": 8
+    },
+    "total_score": 65.0,
+    "success_probability": 68.3,
+    "recommendation": "Validate Market",
+    "outcome": "pending",
+    "actual_revenue_30d": 0,
+    "actual_revenue_90d": 0,
+    "actual_revenue_1y": 0
+  },
+  {
+    "idea_id": "2026-10-13-ideaforge-lab",
+    "date_evaluated": "2026-10-13T16:39:29.613207",
+    "category": "api-services",
+    "scores": {
+      "market_demand": 6,
+      "technical_feasibility": 6,
+      "time_to_revenue": 5,
+      "scalability": 6,
+      "initial_investment": 8,
+      "competitive_advantage": 5,
+      "automation_potential": 6,
+      "recurring_revenue": 8
+    },
+    "total_score": 60.0,
+    "success_probability": 66.0,
+    "recommendation": "Validate Market",
+    "outcome": "pending",
+    "actual_revenue_30d": 0,
+    "actual_revenue_90d": 0,
+    "actual_revenue_1y": 0
+  },
+  {
+    "idea_id": "2026-10-14-scope-correction-service",
+    "date_evaluated": "2026-10-14T11:42:00.276685",
+    "category": "automation-services",
+    "scores": {
+      "market_demand": 6,
+      "technical_feasibility": 8,
+      "time_to_revenue": 7,
+      "scalability": 4,
+      "initial_investment": 9,
+      "competitive_advantage": 5,
+      "automation_potential": 4,
+      "recurring_revenue": 5
+    },
+    "total_score": 58.5,
+    "success_probability": 64.5,
+    "recommendation": "Refine Idea",
+    "outcome": "pending",
+    "actual_revenue_30d": 0,
+    "actual_revenue_90d": 0,
+    "actual_revenue_1y": 0
   }
 ]

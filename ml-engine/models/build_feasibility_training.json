@@ -15,5 +15,39 @@
     "verdict": "spike_first",
     "outcome": "pending",
     "actual_build_weeks": null
+  },
+  {
+    "assessment_id": "2026-10-13-mri-order-redirect-build-feasibility",
+    "date_assessed": "2026-10-13T16:21:08.851907",
+    "linked_idea": "../evaluated/2026-10-13-mri-order-redirect.md",
+    "scores": {
+      "technical_viability": 7,
+      "build_complexity": 7,
+      "infrastructure_fit": 8,
+      "scale_architecture": 7,
+      "technical_risk": 5,
+      "ops_maintainability": 6
+    },
+    "build_feasibility_score": 69.0,
+    "verdict": "spike_first",
+    "outcome": "pending",
+    "actual_build_weeks": null
+  },
+  {
+    "assessment_id": "2026-10-13-ideaforge-lab-build-feasibility",
+    "date_assessed": "2026-10-13T16:39:50.898180",
+    "linked_idea": "../evaluated/2026-10-13-ideaforge-lab.md",
+    "scores": {
+      "technical_viability": 6,
+      "build_complexity": 5,
+      "infrastructure_fit": 7,
+      "scale_architecture": 7,
+      "technical_risk": 5,
+      "ops_maintainability": 6
+    },
+    "build_feasibility_score": 60.0,
+    "verdict": "spike_first",
+    "outcome": "pending",
+    "actual_build_weeks": null
   }
 ]

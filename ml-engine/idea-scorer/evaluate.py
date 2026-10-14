@@ -12,8 +12,8 @@ from pathlib import Path
 import re
 
 class IdeaScorer:
-    def __init__(self, lab_root="/Users/cory/Documents/Cloudy-Work/passive-income-lab"):
-        self.lab_root = Path(lab_root)
+    def __init__(self, lab_root=None):
+        self.lab_root = Path(lab_root) if lab_root else Path(__file__).resolve().parents[2]
         self.models_dir = self.lab_root / "ml-engine" / "models"
         self.models_dir.mkdir(parents=True, exist_ok=True)
         self.training_data_file = self.models_dir / "training_data.json"
@@ -62,7 +62,7 @@ class IdeaScorer:
         metadata = {}
         
         # Extract category
-        category_match = re.search(r'\*\*Category:\*\*\s*\[(.*?)\]', content)
+        category_match = re.search(r'\*\*Category:\*\*\s*\[?([^\]\n]+)\]?', content)
         if category_match:
             metadata['category'] = category_match.group(1).split('|')[0].strip()
         
