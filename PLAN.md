@@ -1,16 +1,17 @@
 # Plan — IdeaForge
 
-**Last Updated:** 2026-10-14
+**Last Updated:** 2026-10-17
 **Current Phase:** Idea selection
 
 ---
 
 ## Active Work
 
-**Current Focus:** Cards are filed. The next action is a hand test, not a build.
+**Current Focus:** Transcript passed. The next action is one outsider, not a build.
 
-- [ ] MRI order redirect — three imaging-center calls (effort: S)
-- [ ] IdeaForge lab — one critique transcript on a fresh idea (effort: S)
+- [x] MRI order redirect — booking already exists (RadiologyAssist, Green Imaging, MDsave). No center calls for a new booking page (2026-10-14)
+- [x] IdeaForge lab — pharmacy fill-status transcript passed (2026-10-14). Opportunity 34, build 26, archive
+- [ ] One entrepreneur who is not Cory says whether they would pay to keep the lab (effort: S)
 - [ ] Scope correction — one paid milestone, only if chosen (effort: S)
 
 ## Recently Completed
@@ -24,13 +25,15 @@
 ## Backlog
 
 ### High Priority
-- [ ] Run the chosen spike before any product UI (effort: S)
+- [x] Pharmacy transcript spike passed (2026-10-14). Do not build a fill-status app
+- [ ] Outsider pay question before any product UI (effort: S)
 
 ### Medium Priority
-- [ ] Revisit Proxmox management SaaS (87), crypto DCA bot (86), trading signal aggregator (83.5), crypto micro-investing (78) (effort: M)
+- [x] Re-score Proxmox management SaaS — 57.5, Refine Idea (2026-10-14). Do not build the general panel
+- [x] Re-score crypto DCA (51.0, Refine), signal aggregator (55.5, Refine), micro-investing (37.0, Archive) (2026-10-14)
 
 ### Low Priority
-- [ ] Lab UI, shared model gateway, private LLM — only after the transcript spike passes (effort: L)
+- [ ] Lab UI, shared model gateway, private LLM — only after one outsider says they would pay (effort: L)
 
 ## Known Bugs
 

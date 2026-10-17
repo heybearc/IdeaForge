@@ -1,18 +1,23 @@
 # IdeaForge Task State
 
-**Last updated:** 2026-10-14
+**Last updated:** 2026-10-17
 **Current branch:** main
-**Working on:** Idea lab — cards filed, no spike started
+**Working on:** Idea lab — pharmacy transcript passed; waiting on one outsider
 
 ---
 
 ## Current Task
-**Choose the next idea to test** — PAUSED
+**Show the pharmacy transcript to one entrepreneur who is not Cory** — PAUSED
 
 ### What I'm doing right now
-Opportunity and build cards are filed. Nothing is being built. The lab UI, shared model gateway, and private LLM stay unbuilt until a spike passes.
+The IdeaForge transcript gate passed on the pharmacy-ready critique (opportunity 34, build 26, archive). Nothing is being built. The lab UI, shared model gateway, and private LLM stay unbuilt until that outsider says they would pay to keep a lab like it.
 
 ### Recent completions
+- ✅ (2026-10-14) Pharmacy fill-status transcript passed the lab bar. Pharmacy already pays (PioneerRx, Walgreens Rx Alerts, EnlivenHealth). Archive. No card file written
+- ✅ (2026-10-14) MRI booking gap closed: RadiologyAssist, Green Imaging, and MDsave already book the scan. Do not build another booking page
+- ✅ (2026-10-14) Trash bin route looked at from Bin Bath: 43.0, Refine Idea. Keep the pattern, do not start a route
+- ✅ (2026-10-14) Three investing cards re-scored: DCA 51.0 Refine, signal aggregator 55.5 Refine, micro-investing 37.0 Archive
+- ✅ (2026-10-14) Proxmox management SaaS re-scored: 57.5, Refine Idea. January 87.5 is history
 - ✅ (2026-10-14) MRI order redirect filed: opportunity 65, Validate Market; build 69, spike_first
 - ✅ (2026-10-14) IdeaForge lab filed: opportunity 60, Validate Market; build 60, spike_first
 - ✅ (2026-10-14) Scope correction filed in brainstorm: 58.5, Refine Idea
@@ -20,27 +25,31 @@ Opportunity and build cards are filed. Nothing is being built. The lab UI, share
 - ✅ (2026-10-13) Vonage MFA SMS relay removed (done elsewhere); governance submodule synced
 
 ### Next steps
-1. Pick one test: MRI is three imaging-center calls; IdeaForge lab is one critique transcript on a fresh idea
-2. Leave the lab UI, gateway, and private LLM until that transcript passes
+1. Show the pharmacy transcript to one entrepreneur who is not Cory. Ask if they would pay to keep a lab like it. Write the answer on the idea file. MRI center calls stay off
+2. Leave the lab UI, gateway, and private LLM until that answer is yes
 3. Scope correction, if chosen, is one paid milestone, not a platform
 
 ## Known Issues
 - IdeaForge is local on this Mac. There is no STANDBY or LIVE slot.
 - Crypto wallet recovery (67.5) stays parked. That market is recovery scams.
 - Passive-income lab as SaaS (77, January) is the old sketch. Use the October IdeaForge lab card.
+- Proxmox management SaaS (87.5, January) is the old score. Use the 2026-10-14 card (57.5).
+- Crypto DCA (87, January) and the signal aggregator (85, January) were re-scored 2026-10-14. Do not build either. Micro-investing (81.5, January) is archived at 37.0.
 
 ## Exact Next Command
-Open the open-card list and choose MRI center calls or the IdeaForge transcript spike. Do not start a UI.
+Show the pharmacy transcript to one entrepreneur who is not Cory. Do not start a UI. Do not call imaging centers about a booking page.
 
 ## Open cards worth another look
-- Proxmox management SaaS — 87
-- Crypto dollar-cost averaging bot — 86
-- Trading signal aggregator — 83.5
-- Crypto micro-investing app — 78
-- MRI order redirect — 65 (this week's strongest new card)
+- MRI order redirect — 65, booking gap closed 2026-10-14. Do not build another booking page
 - IdeaForge lab — 60
 - Scope correction service — 58.5 (under the line)
+- Proxmox management SaaS — 57.5 (re-scored 2026-10-14, Refine Idea; do not build the general panel)
+- Trading signal aggregator — 55.5 (re-scored 2026-10-14, Refine Idea; do not sell the webhook)
+- Crypto dollar-cost averaging bot — 51.0 (re-scored 2026-10-14, Refine Idea; do not build)
 - BNI chapter toolkit — 84, already promoted to its own repo
+
+## Archived this pass
+- Crypto micro-investing app — 37.0 (was 81.5). Spare-change bitcoin is Fold and Lolli.
 
 ## Feedback (app repos)
 No feedback system. Resolved: 0 | Promoted: 0 | Triaged: 0
