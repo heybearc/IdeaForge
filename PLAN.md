@@ -1,6 +1,6 @@
 # Plan — IdeaForge
 
-**Last Updated:** 2026-10-17
+**Last Updated:** 2026-10-20
 **Current Phase:** Idea selection
 
 ---
@@ -16,6 +16,8 @@
 
 ## Recently Completed
 
+- [x] October re-scores committed and governance synced (2026-10-20)
+- [x] MSP prospect search handed to cloudigan-quote-builder, not built here (2026-10-20)
 - [x] MRI order redirect evaluated (65) and assessed (69, spike_first) (2026-10-14)
 - [x] IdeaForge lab evaluated (60) and assessed (60, spike_first) (2026-10-14)
 - [x] Scope correction scored 58.5 and left in brainstorm (2026-10-14)
@@ -45,6 +47,7 @@
 - Conversation quality matters more than a form. The thread is the product; the card is the record.
 - Do not invent demand, intercept medical orders, or auto-send freelance bids.
 - Patients do not subscribe to MRI. Imaging centers would pay a platform fee plus a per-scan fee.
+- 2026-10-20: Cloudigan prospecting and large-account quoting belong in cloudigan-quote-builder. This lab does not build that.
 
 ## Not in scope
 

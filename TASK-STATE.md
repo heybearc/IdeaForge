@@ -1,6 +1,6 @@
 # IdeaForge Task State
 
-**Last updated:** 2026-10-17
+**Last updated:** 2026-10-20
 **Current branch:** main
 **Working on:** Idea lab — pharmacy transcript passed; waiting on one outsider
 
@@ -10,19 +10,14 @@
 **Show the pharmacy transcript to one entrepreneur who is not Cory** — PAUSED
 
 ### What I'm doing right now
-The IdeaForge transcript gate passed on the pharmacy-ready critique (opportunity 34, build 26, archive). Nothing is being built. The lab UI, shared model gateway, and private LLM stay unbuilt until that outsider says they would pay to keep a lab like it.
+The IdeaForge transcript gate passed on the pharmacy-ready critique (opportunity 34, build 26, archive). Nothing is being built. The lab UI, shared model gateway, and private LLM stay unbuilt until that outsider says they would pay to keep a lab like it. MSP prospecting left this repo on 2026-10-20.
 
 ### Recent completions
-- ✅ (2026-10-14) Pharmacy fill-status transcript passed the lab bar. Pharmacy already pays (PioneerRx, Walgreens Rx Alerts, EnlivenHealth). Archive. No card file written
-- ✅ (2026-10-14) MRI booking gap closed: RadiologyAssist, Green Imaging, and MDsave already book the scan. Do not build another booking page
-- ✅ (2026-10-14) Trash bin route looked at from Bin Bath: 43.0, Refine Idea. Keep the pattern, do not start a route
-- ✅ (2026-10-14) Three investing cards re-scored: DCA 51.0 Refine, signal aggregator 55.5 Refine, micro-investing 37.0 Archive
-- ✅ (2026-10-14) Proxmox management SaaS re-scored: 57.5, Refine Idea. January 87.5 is history
-- ✅ (2026-10-14) MRI order redirect filed: opportunity 65, Validate Market; build 69, spike_first
-- ✅ (2026-10-14) IdeaForge lab filed: opportunity 60, Validate Market; build 60, spike_first
-- ✅ (2026-10-14) Scope correction filed in brainstorm: 58.5, Refine Idea
-- ✅ (2026-10-14) Idea scorer writes training data in this repo and reads unbracketed categories
-- ✅ (2026-10-13) Vonage MFA SMS relay removed (done elsewhere); governance submodule synced
+- ✅ (2026-10-20) October re-scores committed. Governance submodule synced
+- ✅ (2026-10-20) MSP prospect search handed to cloudigan-quote-builder (`docs/prospect-search.md`). Not a lab build
+- ✅ (2026-10-14) Pharmacy fill-status transcript passed the lab bar. Archive. No card file written
+- ✅ (2026-10-14) MRI booking gap closed. Do not build another booking page
+- ✅ (2026-10-14) Proxmox 57.5, DCA 51.0, signal aggregator 55.5, micro-investing 37.0 archived, trash route 43.0. January scores are history
 
 ### Next steps
 1. Show the pharmacy transcript to one entrepreneur who is not Cory. Ask if they would pay to keep a lab like it. Write the answer on the idea file. MRI center calls stay off
