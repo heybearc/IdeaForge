@@ -2,8 +2,10 @@
 
 **Date Created:** 2026-01-04  
 **Category:** trading-bots  
-**Status:** evaluated  
+**Status:** superseded  
 **Creator:** Cory
+
+Superseded on 2026-10-14 by `ideas/evaluated/2026-10-14-trading-signal-aggregator.md`. The 85.0 below is the January score. Do not use it.
 
 ---
 

@@ -240,9 +240,9 @@ No patient subscription and no patient account beyond the booking. The written o
 (8 × 0.05) = 6.50 → 65.0 / 100
 ```
 
-**Decision:** Validate Market
+**Decision:** Validate Market — superseded 2026-10-14 for the booking gap
 
-The web app is the right product once a center will pay a platform fee and a per-scan fee. Build the booking page after that yes, not before.
+The 65.0 above assumed a patient could not already book a cheaper MRI at an independent center. RadiologyAssist, Green Imaging, and MDsave already do that. Building another booking page does not fill a gap. Do not make the three center calls to test booking. The only leftover is a fee shape, a center paying a monthly fee plus a per-scan fee, and nothing shows a center paying that.
 
 ---
 

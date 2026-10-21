@@ -2,8 +2,10 @@
 
 **Date Created:** 2026-01-05  
 **Category:** trading-bots  
-**Status:** brainstorm  
+**Status:** superseded  
 **Creator:** Cory
+
+Superseded on 2026-10-14 by `ideas/evaluated/2026-10-14-crypto-dollar-cost-averaging-bot.md`. The 87.0 below is the January score. Do not use it.
 
 ---
 

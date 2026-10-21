@@ -2,8 +2,10 @@
 
 **Date Created:** 2026-01-04  
 **Category:** infrastructure-tools  
-**Status:** evaluated  
+**Status:** superseded  
 **Creator:** Cory
+
+Superseded on 2026-10-14 by `ideas/evaluated/2026-10-14-proxmox-management-saas.md`. The 87.5 below is the January score. Do not use it.
 
 ---
 
