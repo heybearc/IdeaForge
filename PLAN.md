@@ -16,6 +16,7 @@
 
 ## Recently Completed
 
+- [x] `.cloudy-work` is on `main` at the recorded commit (2026-11-09)
 - [x] Face-and-voice companion promoted to MC for a local spike. Not built in this repo (2026-11-09)
 - [x] October re-scores committed and governance synced (2026-10-20)
 - [x] MSP prospect search handed to cloudigan-quote-builder, not built here (2026-10-20)
