@@ -1,6 +1,6 @@
 # Plan — IdeaForge
 
-**Last Updated:** 2026-10-20
+**Last Updated:** 2026-11-09
 **Current Phase:** Idea selection
 
 ---
@@ -16,6 +16,7 @@
 
 ## Recently Completed
 
+- [x] Face-and-voice companion promoted to MC for a local spike. Not built in this repo (2026-11-09)
 - [x] October re-scores committed and governance synced (2026-10-20)
 - [x] MSP prospect search handed to cloudigan-quote-builder, not built here (2026-10-20)
 - [x] MRI order redirect evaluated (65) and assessed (69, spike_first) (2026-10-14)
@@ -48,8 +49,9 @@
 - Do not invent demand, intercept medical orders, or auto-send freelance bids.
 - Patients do not subscribe to MRI. Imaging centers would pay a platform fee plus a per-scan fee.
 - 2026-10-20: Cloudigan prospecting and large-account quoting belong in cloudigan-quote-builder. This lab does not build that.
+- 2026-11-09: The companion someone asked to build is a face and a live voice, adults only, wellness and not therapy. Kindroid and Replika already sell that. The spike belongs in a new repo.
 
 ## Not in scope
 
 - No STANDBY deploy. This app has no blue-green slot.
-- No new governance decision today.
+- No new governance decision today. The companion stays a local spike until the face-and-voice page is worth keeping.

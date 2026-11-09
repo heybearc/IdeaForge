@@ -10,20 +10,19 @@
 **Show the pharmacy transcript to one entrepreneur who is not Cory** — PAUSED
 
 ### What I'm doing right now
-The IdeaForge transcript gate passed on the pharmacy-ready critique (opportunity 34, build 26, archive). Nothing is being built. The lab UI, shared model gateway, and private LLM stay unbuilt until that outsider says they would pay to keep a lab like it. MSP prospecting left this repo on 2026-10-20.
+The pharmacy transcript still waits on one entrepreneur who is not Cory. The lab UI stays unbuilt. The face-and-voice companion left this repo on 2026-11-09.
 
 ### Recent completions
+- ✅ (2026-11-09) AI companion reviewed and promoted to MC. Card: `ideas/in-progress/2026-11-09-ai-companion.md`. Handoff: Cloudy-Work `ai-companion` (`8ebe84c`). This lab does not build it
 - ✅ (2026-10-20) October re-scores committed. Governance submodule synced
-- ✅ (2026-10-20) MSP prospect search handed to cloudigan-quote-builder (`docs/prospect-search.md`). Not a lab build
+- ✅ (2026-10-20) MSP prospect search handed to cloudigan-quote-builder. Not a lab build
 - ✅ (2026-10-14) Pharmacy fill-status transcript passed the lab bar. Archive. No card file written
 - ✅ (2026-10-14) MRI booking gap closed. Do not build another booking page
-- ✅ (2026-10-14) Proxmox 57.5, DCA 51.0, signal aggregator 55.5, micro-investing 37.0 archived, trash route 43.0. January scores are history
 
 ### Next steps
 1. Show the pharmacy transcript to one entrepreneur who is not Cory. Ask if they would pay to keep a lab like it. Write the answer on the idea file. MRI center calls stay off
 2. Leave the lab UI, gateway, and private LLM until that answer is yes
 3. Scope correction, if chosen, is one paid milestone, not a platform
-4. AI companion spike is promoted to MC (2026-11-09). Spin-up lives in Cloudy-Work handoff `ai-companion`. This lab does not build that app.
 
 ## Known Issues
 - IdeaForge is local on this Mac. There is no STANDBY or LIVE slot.
