@@ -1,6 +1,6 @@
 # IdeaForge Task State
 
-**Last updated:** 2026-10-20
+**Last updated:** 2026-11-09
 **Current branch:** main
 **Working on:** Idea lab — pharmacy transcript passed; waiting on one outsider
 
@@ -23,6 +23,7 @@ The IdeaForge transcript gate passed on the pharmacy-ready critique (opportunity
 1. Show the pharmacy transcript to one entrepreneur who is not Cory. Ask if they would pay to keep a lab like it. Write the answer on the idea file. MRI center calls stay off
 2. Leave the lab UI, gateway, and private LLM until that answer is yes
 3. Scope correction, if chosen, is one paid milestone, not a platform
+4. AI companion spike is promoted to MC (2026-11-09). Spin-up lives in Cloudy-Work handoff `ai-companion`. This lab does not build that app.
 
 ## Known Issues
 - IdeaForge is local on this Mac. There is no STANDBY or LIVE slot.
