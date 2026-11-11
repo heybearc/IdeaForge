@@ -10,11 +10,12 @@
 **Show the pharmacy transcript to one entrepreneur who is not Cory** — PAUSED
 
 ### What I'm doing right now
-The pharmacy transcript still waits on one entrepreneur who is not Cory. The lab UI stays unbuilt. The face-and-voice companion left this repo on 2026-11-09. `.cloudy-work` is on `main` at `8ebe84c`.
+The pharmacy transcript still waits on one entrepreneur who is not Cory. The lab UI stays unbuilt. The face-and-voice companion was cancelled on 2026-11-11. `.cloudy-work` is on `main` at `8ebe84c`.
 
 ### Recent completions
+- ✅ (2026-11-11) AI companion cancelled. Card is `ideas/archive/2026-11-09-ai-companion.md`. Do not recreate the repo or the handoff
 - ✅ (2026-11-09) `.cloudy-work` fast-forwarded onto `main` at `8ebe84c`. Parent pointer unchanged
-- ✅ (2026-11-09) AI companion reviewed and promoted to MC. Card: `ideas/in-progress/2026-11-09-ai-companion.md`. Handoff: Cloudy-Work `ai-companion`. This lab does not build it
+- ✅ (2026-11-09) AI companion reviewed and promoted to MC. Later cancelled. This lab does not build it
 - ✅ (2026-10-20) October re-scores committed. Governance submodule synced
 - ✅ (2026-10-20) MSP prospect search handed to cloudigan-quote-builder. Not a lab build
 - ✅ (2026-10-14) Pharmacy fill-status transcript passed the lab bar. Archive. No card file written

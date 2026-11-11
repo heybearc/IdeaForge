@@ -1,14 +1,14 @@
-**Status:** CANCELLED 2026-11-11 — GitHub + local repo deleted.
+**Status:** CANCELLED 2026-11-11 — GitHub repo, local project, build brief, and handoff removed. Do not recreate.
 
 # AI Companion
 
 **Date Created:** 2026-11-09  
 **Category:** consumer-software  
-**Status:** promoted to MC, repo not created  
+**Status:** cancelled 2026-11-11  
 **Creator:** Cory  
 **Promoted:** 2026-11-09  
-**Control plane:** `_cloudy-ops/docs/ideas/ai-companion.md` and `_cloudy-ops/handoffs/ai-companion.md` in Cloudy-Work  
-**Repository:** not created (`heybearc/ai-companion` is the reserved name)
+**Control plane:** removed from Cloudy-Work on 2026-11-11  
+**Repository:** deleted (`heybearc/ai-companion` and `~/Projects/ai-companion`)
 
 ---
 
@@ -40,4 +40,4 @@ Kindroid and Replika. Sesame is live voice without a face the user designs. Wysa
 
 ## Next step
 
-From Master Control, spin up `~/Projects/ai-companion` using the handoff. Brand name stays unset. Do not use Elai.
+None. This idea is closed.
