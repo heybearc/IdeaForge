@@ -1,3 +1,5 @@
+**Status:** CANCELLED 2026-11-11 — GitHub + local repo deleted.
+
 # AI Companion
 
 **Date Created:** 2026-11-09  
